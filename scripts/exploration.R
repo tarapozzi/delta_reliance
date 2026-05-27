@@ -21,4 +21,4 @@ write.csv(cvp, "data/cvp_systems_wcounty.csv")
 cvp_counties <- unique(cvp$county)
 
 
-export_counties <- union(swp_counties, cvp_counties)
+export_counties <- union(swp_counties, cvp_counties
